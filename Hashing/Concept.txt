@@ -1,0 +1,20 @@
+There are mainly 2 types of hashing techniques:
+
+1. Chaining.
+2. Open Addressing.
+  A. Single/ Linear Probing
+  B. Quadratic Probing
+  C. Double Hashing.
+ 
+ 
+ Chaining : As the name suggests we make the chains using single/ double linked list DS. Advantage here is that the hash table never gets filled. The logic is like that,
+ if we ever encounter collision we just add it to the end of chain.
+ 
+ Open Addressing : This method is more dependent on the usage of hash function.
+ A. Linear Probing - In this method whenever we encounter the collision we iterate the hash table by 1, untill we find the empty space or we came back to the same element
+ again doig whole circle.
+  
+  Advantage : There is avery high chance of finding an empty space.
+  Disadvantage : Creates big linear clusters.
+  
+  B. 
