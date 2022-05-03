@@ -1,5 +1,5 @@
-/*T.C : Theta(n)
-A.S.C : Theta(1)
+/*T.C : O(n)
+A.S.C : O(n) Reason: Worst case time complexity will be O(N) (in case of skewed tree).
 
 LOGIC : Here we are converting the binary tree into inorder traversal to doublyLL. We are basically repeating the three steps.
 Inorder Traversal : left root right
