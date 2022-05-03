@@ -33,3 +33,7 @@ class Solution
     }
     
 }
+/*OTHER SOLUTIONS : https://takeuforward.org/data-structure/flatten-binary-tree-to-linked-list/
+1. Iterative Approach – Using Stack
+2. Using Intuition behind Morris Traversal
+*/
